@@ -4,7 +4,6 @@
     z-index: 99;
     transition: .3s;
 
-    &.white,
     &.change-bg {
         box-shadow: 0 0 10px rgba(27, 109, 255, 0.1490196078);
         background: #fff;
@@ -120,7 +119,7 @@
         height: 100vh;
         width: 50%;
         right: 0;
-        top: 70px;
+        top: 0px;
         z-index: 10;
         background-color: #fff;
         transition: .4s ease-in-out;
@@ -220,6 +219,13 @@
 }
 
 @media (max-width:767.8px) {
+    .header__nav {
+        top: 70px;
+    }
+    .header.white {
+        box-shadow: 0 0 10px rgba(27, 109, 255, 0.1490196078);
+        background: #fff;
+    }
 
     .header__nav {
         width: 100%;

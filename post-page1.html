@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post page</title>
-    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -44,12 +44,15 @@
     </header>
 
     <main class="main">
-        <section class="postwrapper">
-
-            <div class="posttopsection text-center">
-                <div class="container">
-                    <span class="pagelabel sticker">Tech Trends</span>
-                    <h1>
+        <section class="heroscreen post">
+            <img src="img/svg/heroscreen_frame_dots.svg" alt="frame" class="frame-left">
+            <img src="img/svg/heroscreen_frame_dots.svg" alt="frame" class="frame-right">
+            <div class="container">
+                <div class="heroscreen__inner">
+                    <p class="sticker">
+                        Tech Trends
+                    </p>
+                    <h1 class="heroscreen__title">
                         Finding the right WordPress<br> Developer
                     </h1>
                     <div class="dates">
@@ -59,13 +62,14 @@
                             <li>14 min read</li>
                         </ul>
                     </div>
-                    <img class="postmainpic" src="img/post/postimg1.png" alt="img">
-
-                    <!-- bacground elements -->
-                    <img class="postbg postbg_left" src="img/post/dotsbg-left.png" alt="bg">
-                    <img class="postbg postbg_right" src="img/post/dotsbg-right.png" alt="bg">
+                    <div class="heroscreen__post">
+                        <img class="postmainpic" src="img/post/postimg1.png" alt="img">
+                    </div>
                 </div>
             </div>
+        </section>
+        <section class="postwrapper">
+           
             <div class="container">
                 <div class="postcontent">
                     <div class="row">
@@ -426,6 +430,7 @@
             </div>
         </section>
 
+
         <section class="ourblogsection">
             <div class="container">
                 <p class="sect-subtitle">Our blog</p>
@@ -567,11 +572,8 @@
         </div>
     </footer>
 
-
-
     <script src="js/lib/jquery.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/jsnew.js"></script>
 </body>
 
 </html>
