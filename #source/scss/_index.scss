@@ -754,6 +754,9 @@
 }
 
 @media(max-width: 767.8px) {
+    .heroscreen:before {
+        height: 80%;
+    }
     .talent__box-left{
         flex-wrap: wrap;
     }
