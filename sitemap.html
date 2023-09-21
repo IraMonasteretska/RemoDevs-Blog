@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sitemap</title>
+  <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <style>
+    .sitemap {
+      padding: 20px 50px;
+      background-color: #fbfbfb;
+      height: 100vh;
+    }
+
+
+    .sitemap__link {
+      font-size: 24px;
+      display: block;
+      color: #0037FB;
+      transition: .3s;
+      margin-bottom: 30px;
+    }
+
+
+    .sitemap__link:hover {
+      color: #0037FB;
+      opacity: 0.6;
+    }
+
+    @media(max-width:1440px) {
+      .sitemap__link {
+        font-size: 20px;
+      }
+    }
+
+    @media(max-width:992px) {
+      .sitemap__link {
+        font-size: 18px;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+    }
+
+    
+  </style>
+
+  
+<section class="sitemap">
+  <a class="sitemap__link" href="index.html">Main</a>
+  <a class="sitemap__link" href="post-page1.html">Post 1</a>
+  <a class="sitemap__link" href="post-page2.html">Post 2</a>
+  <!-- <a class="sitemap__link" href="Author.html">Author</a> -->
+</section>
+  
+
+  <script src="js/jquery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
