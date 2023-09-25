@@ -1,0 +1,29 @@
+.pagewrapper{
+    overflow: initial;
+}
+.postwrapper {
+    position: initial;
+}
+.heroscreen__inner .post-categories a{
+    color: #0037FB;
+    display: inline-block;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    background-color: #E9EDF7;
+    padding: 4px 12px;
+    border-radius: 999px;
+    margin: 0 auto 16px;
+}
+.heroscreen__title {
+    max-width: 800px;
+    margin: 0 auto 24px;
+}
+
+.postcontent article .socbtn img{
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+}

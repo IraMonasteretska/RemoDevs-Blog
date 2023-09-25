@@ -847,6 +847,16 @@ ul.socul,
 }
 
 
+@media(max-width:1399.8px) {
+    .postauthorinfo .postauthorinfo__topright {
+        max-width: 60%;
+        flex: 0 0 60%;
+    }
+    .postauthorinfo .postauthorinfo__topleft {
+        max-width: 40%;
+        flex: 0 0 40%;
+    }
+}
 @media(max-width:1199.8px) {
 
     .posttopsection h1 {
